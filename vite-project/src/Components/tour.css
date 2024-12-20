@@ -11,6 +11,7 @@
   gap: 10px; /* Отступы между ячейками */
   text-align: left;
   margin-top: 80px;
+  justify-items: center;
 }
 /* .txtTitle_1 {
   margin-left: 30px;
@@ -26,18 +27,63 @@
   margin-right: 23px;
 } */
 
-.tourAccordions{
-    margin-top: 65px;
+.tourAccordions {
+  margin-top: 65px;
 }
 .tourAccardionItem {
   display: grid;
   grid-template-columns: repeat(4, 2fr); /* Четыре равных столбца */
   gap: 10px; /* Отступы между ячейками */
   text-align: left; /* Текст по центру ячеек */
-  margin-top: 45px; 
+  justify-items: center;
+  background-image: url(../../public/img/shuma.png);
+  background-color: #C14141;
+  padding: 48px 0px;
+  margin-top: 42px;
+  border-radius: 20px;
 }
 .txtTitle {
   font-weight: bold;
   color: white;
   text-transform: uppercase;
+}
+.tourAccardion:hover {
+  cursor: pointer;
+  background-color: #000000;
+  transition: 0.1s;
+  border-radius: 20px;
+
+}
+.hiddenAccordionWrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../../public/img/shuma.png);
+    background-color: white;
+    border-radius: 0px 0px 20px 20px;
+    
+}
+.hiddenAccordion{
+    display: flex;
+    width: 445px;
+    justify-content: space-between;
+    margin-top: 26px;
+    margin-bottom: 10px;
+    align-items: center;
+}
+.accordionBtn{
+    padding: 20px 60px;
+    font-family: Rimma_sans;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+    background-color: black;
+    background-image: url(../../public/img/shumaGray.png);
+    border-radius: 20px;
+    border: 0;
+    color: white;
+}
+.tourAccardionItemOpen{
+    border-radius: 20px 20px 0px 0px;
+
 }
