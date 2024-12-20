@@ -1,0 +1,61 @@
+.album-showcase {
+    margin-top: 108px;
+}
+
+.album-block {
+    margin-top: 83px;
+    display: flex;
+}
+
+.right-text__album {
+    font-family: Rimma_sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38.4px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: rgba(255, 255, 255, 1);
+
+}
+
+.right-text__info {
+    margin-top: 40px;
+    margin-left: 78px;
+    font-family: Kankin;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: rgba(255, 255, 255, 1);
+
+}
+
+.music-text__button {
+    font-family: Rimma_sans;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: rgba(255, 255, 255, 1);
+}
+
+.music-button {
+    margin-top: 52px;
+    width: 376px;
+    height: 67px;
+    border-radius: 20px ;
+    background: rgba(193, 65, 65, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+.album-right{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}

@@ -1,0 +1,128 @@
+.basket-line {
+    border-bottom: 1px solid white;
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 45px;
+    padding-right: 45px;
+}
+
+.card-button {
+    font-family: Kanki;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-top: 50px;
+    color: white;
+}
+
+.up-viewing {
+    width: 1010px;
+    height: auto;
+    display: flex;
+}
+
+.lineSize-choice {
+    display: flex;
+    justify-content: space-between;
+}
+
+.choice {
+    width: 30px;
+    height: 30px;
+    border: 1px solid white;
+    padding: 15px;
+    border-radius: 20px;
+    font-family: Rimma_sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.up-right {
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.txt-upper {
+    font-family: Rimma_sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38.4px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.txt-up {
+    font-family: Kankin;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.txt-price {
+    font-family: Kankin;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.txt-size {
+    font-family: Kankin;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.color-white {
+    color: white;
+}
+
+
+.bt-order {
+    width: 409.2px;
+    height: 67px;
+    border-radius: 20px;
+    background-color: #C14141;
+    font-family: Rimma_sans;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border: none;
+
+}
+
+.txt-descr {
+    font-family: Kankin;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 25.8px;
+    color: #C4C4C4;
+}

@@ -1,6 +1,6 @@
 import './tour.css'
 import iconVK from '../../public/icon/vkBlack.png'
-import React, { useState } from "react";
+import { useState } from "react";
 interface Data {
     id: number
 }
@@ -44,12 +44,6 @@ const Accordion = (props) => {
                         <img src={iconVK} alt="" style={{width: '40px', height: '40px'}} />
                     </div>
                 </div>)}
-                {/* <div className="hiddenAccordionWrap">
-                    <div className="hiddenAccordion">
-                        <button className="accordionBtn">купить билет</button>
-                        <img src={iconVK} alt="" style={{width: '40px', height: '40px'}} />
-                    </div>
-                </div> */}
             </div>
         </>
     )
